@@ -11,6 +11,7 @@ const dir = './'; // or wherever your assets are
 const canProcessFile = (function () {
     const dirIgnore = [
         '.git',
+        '.github',
         'node_modules',
         'dist',
         'build',
